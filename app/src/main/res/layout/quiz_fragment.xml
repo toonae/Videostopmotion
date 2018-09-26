@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quiz Fragment"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        android:text="                   ยำใหญ่ใส่สารพัด      วางจานจัดหลายเหลือตรา
+           รสดีด้วยน้ำปลา               ญี่ปุ่นล้ำย้ำยวนใจ"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal"
+        app:fontFamily="@font/yrsa" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:text="ยำใหญ่ที่มีเครื่องครบครับ จัดวางอยู่ในจานอย่างสุดจะพรรณนา ปรุงรสด้วยน้ำปลาญี่ปุ่นทำให้น่าลิ้มลองอย่างยิ่ง"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal"
+        app:fontFamily="@font/yrsa" />
 
 
 </LinearLayout>

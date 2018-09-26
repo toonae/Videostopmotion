@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager= (ViewPager) findViewById(R.id.viewpaper_id);
         ViewPaperAdapter adapter = new ViewPaperAdapter(getSupportFragmentManager());
 
-        adapter.AddFragment(new FragmentQuiz(),"Quiz");
-        adapter.AddFragment(new FragmentExplore(),"Explore");
-        adapter.AddFragment(new FragmentStore(),"Store");
+        adapter.AddFragment(new FragmentQuiz(),"บทประพันธ์");
+        adapter.AddFragment(new FragmentExplore(),"ส่วนผสม");
+        adapter.AddFragment(new FragmentStore(),"วิธีทำ");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

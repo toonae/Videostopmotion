@@ -41,6 +41,7 @@
         <!--Column1-->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/hGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -48,6 +49,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_rowWeight="1"
+            android:onClick="onClick"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
@@ -83,6 +85,7 @@
         <!--Column2-->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/mGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -90,6 +93,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_rowWeight="1"
+            android:onClick="clickMeat"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
@@ -126,6 +130,7 @@
         <!--Column3-->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/sGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -168,6 +173,7 @@
         <!--Column4-->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/fGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"

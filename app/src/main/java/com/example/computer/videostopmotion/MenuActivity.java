@@ -18,6 +18,9 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         mainGrid = (GridLayout)findViewById(R.id.mainGrid);
+       // hGrid = (GridLayout)findViewById(R.id.hGrid);
+       // sGrid = (GridLayout)findViewById(R.id.sGrid);
+        //fGrid = (GridLayout)findViewById(R.id.fGrid);
 
         setSingleEvent(mainGrid);
     }
@@ -26,19 +29,19 @@ public class MenuActivity extends AppCompatActivity {
         for (int i=0;i<mainGrid.getChildCount();i++)
         {
             CardView cardView = (CardView)mainGrid.getChildAt(i);
-            final int finalI=i;
+            //final int finalI=i;
             cardView.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public  void onClick(View view){
-                    if (finalI ==0) {
-                        Intent h = new Intent(MenuActivity.this, MeatfoodActivity.class);
-                        startActivity(h);
+                    //if (finalI ==0) {
+                        Intent m = new Intent(MenuActivity.this, MeatfoodActivity.class);
+                        startActivity(m);
                     }
-                    else if (finalI ==1)
-                    {
-                        Intent h = new Intent(MenuActivity.this, MeatfoodActivity.class);
-                        startActivity(h);
-                    }
+                   // else if (finalI ==1)
+                  {
+                        Intent s = new Intent(MenuActivity.this, SweetfoodActivity.class);
+                        startActivity(s);
+                   // }
                 }
             });
         }
