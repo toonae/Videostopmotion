@@ -6,12 +6,5 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Explore Fragment"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-
 
 </LinearLayout>

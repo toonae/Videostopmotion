@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:background="#feecd2"
+    android:gravity="center"
+    android:orientation="vertical">
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txv1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Store Fragment"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:layout_marginLeft="3dp"
+        android:text="1.วุ้นเส้นลวกด้วยน้ำเดือด แล้วรีบผ่านน้ำเย็นทันที ผึ่งให้แห้ง"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="2.โขลกกระเทียม พริกขี้หนู รากผักชีพอแหลก ตักใส่อ่างผสม ใส่น้ำตาลทราย น้ำปลา น้ำมะนาว ปรุงรสตามต้องการ"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="3.ใส่ส่วนผสม เนื้อหมู ตับหมู หนังหมู กุ้ง อกไก่ วุ้นเส้น เห็ดหูหนู แครอท แตงกวา หัวผักกาดขาว และหอมใหญ่ ลงคลุกเคล้าเบาๆ ให้เข้ากัน"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
 
 
+    <TextView
+        android:id="@+id/txv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="4.จัดใส่จาน แต่งด้วยใบสะระแหน่ กระเทียมดอง พริกชี้ฟ้าแดง และไข่ต้ม เสิร์ฟรับประทานทันที"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+
+    android:textColor="@android:color/background_dark"
+    android:textSize="14sp"
+    app:fontFamily="@font/yrsa" />
 </LinearLayout>

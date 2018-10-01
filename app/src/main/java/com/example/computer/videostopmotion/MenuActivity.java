@@ -39,8 +39,7 @@ public class MenuActivity extends AppCompatActivity {
                     }
                    // else if (finalI ==1)
                   {
-                        Intent s = new Intent(MenuActivity.this, SweetfoodActivity.class);
-                        startActivity(s);
+
                    // }
                 }
             });
