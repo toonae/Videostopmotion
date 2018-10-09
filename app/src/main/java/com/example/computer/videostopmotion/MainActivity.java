@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         ViewPaperAdapter adapter = new ViewPaperAdapter(getSupportFragmentManager());
 
         adapter.AddFragment(new FragmentQuiz(),"บทประพันธ์");
-        adapter.AddFragment(new FragmentExplore(),"ส่วนผสม");
+        adapter.AddFragment(new FragmentExplore(),"Video");
         adapter.AddFragment(new FragmentStore(),"วิธีทำ");
-
+        adapter.AddFragment(new FragmentDetail(),"ส่วนผสม");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
     }
