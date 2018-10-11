@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-    ImageButton volumnImageButton;
+    ImageButton volumnImageButton,btnback;
     MediaPlayer mediaPlayer;
 
     private TabLayout tabLayout;
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         volumnImageButton = findViewById(R.id.volume);
+        btnback = findViewById(R.id.btnback);
         mediaPlayer = MediaPlayer.create(this, R.raw.mgangoom);
         volumnImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,4 +54,7 @@ public class MainActivity extends AppCompatActivity {
     public void clickBack(View view) {
         finish();
     }
+    public  void playSound(View view) {  //ชนิดview ตัวแปรview
+        mediaPlayer.start();
+    }//end playSound Method
 }
